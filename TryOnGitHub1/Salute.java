@@ -26,4 +26,14 @@ public class Salute
         // put your code here
         return greetText + " " + inName;
     }
+    
+    /**
+     * Another salute method
+     */
+    public void salutePerson(String inName1, String inName2)    {
+        // put your code here
+        String foundGreet = greetText + " " + inName1 + "\r\n";
+        foundGreet += greetText + " " + inName2;
+        System.out.println(foundGreet);
+    }
 }
