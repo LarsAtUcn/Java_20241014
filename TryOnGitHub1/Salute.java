@@ -16,7 +16,7 @@ public class Salute
     public Salute()
     {
         // initialise instance variables
-        greetText = "Hi";
+        greetText = "Halooo ";
     }
 
     /**
